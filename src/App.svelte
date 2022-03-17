@@ -37,9 +37,11 @@
     </div>
     <div class="other">
       <p class="subtitle">Recommended readings <span style="font-size: 0.8em; margin-left: 6px"> 📘</span></p>
-      <li><a href="https://fs.blog/the-buffett-formula/" target="_blank">The Buffet Formula</a></li>
-      <li><a href="https://jamesclear.com/first-principles" target="_blank">First Principles</a></li>
-      <li><a href="https://fs.blog/mental-models/" target="_blank">Mental Models (Charlie Munger's interdisciplinary thinking)</a></li>
+      <ul>
+        <li><a href="https://fs.blog/the-buffett-formula/" target="_blank">The Buffet Formula</a></li>
+        <li><a href="https://jamesclear.com/first-principles" target="_blank">First Principles</a></li>
+        <li><a href="https://fs.blog/mental-models/" target="_blank">Mental Models (Charlie Munger's interdisciplinary thinking)</a></li>
+      </ul>
     </div>
   </main>
 {/if}
@@ -54,6 +56,7 @@
     padding: 0 1em;
     max-width: 680px;
     margin: 0 auto;
+    padding-bottom: 1.5em;
   }
 
   .title {
@@ -111,6 +114,10 @@
 
     p {
       margin-bottom: 0.4em;
+    }
+
+    ul {
+      padding: 0 1em;
     }
 
     li {
