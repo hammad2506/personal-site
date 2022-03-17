@@ -27,7 +27,7 @@
         <a href={mediumURL} target="_blank" class="link-item">📖 Follow on Medium</a>
       </div>
     </div>
-    <p style="font-size: 14px; text-align: center">"The urgency of today. The consistency of tomorrow. The patience of a dacade-long time horizion."</p>
+    <p style="font-size: 14px; text-align: center">"The urgency of today. The consistency of tomorrow. The patience of a decade-long time horizon."</p>
     <div class="bio">
       <p class="subtitle">More <span style="font-size: 0.8em; margin-left: 6px"> 👤</span></p>
       <p>• Developer Full-Time (Web2 + Web3) 🌐</p>
@@ -48,6 +48,13 @@
 
 <style lang="scss">
   :global(body) {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     background: snow;
   }
 
@@ -135,6 +142,19 @@
 
     &:hover {
       color: rgb(46, 160, 206);
+    }
+  }
+
+  a {
+    color: rgb(0, 100, 200);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: rgb(0, 80, 160);
     }
   }
 </style>
